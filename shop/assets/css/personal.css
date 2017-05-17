@@ -1,0 +1,143 @@
+body{
+	background: #F5F8FA;
+}
+.content{
+	width: 1200px;
+	height: 700px;
+	margin:30px auto;
+}
+.content-nav{
+	width: 160px;
+	height: 231px;
+	background: #ffffff;
+	float: left;
+	margin-left: 5px;
+	border-top: 5px solid #FEC4D7;
+	text-align: center;
+}
+.sheet{
+	width: 144px;
+	display: block;
+    overflow: hidden;
+    line-height: 28px;
+    color: #000;
+    height: 28px;
+    font-size: 15px; 
+    margin: auto;
+}
+.sheet-title{
+	height: 49px;
+	line-height: 49px;
+	
+}
+.unline{
+	border-bottom: 1px solid #eee;
+}
+.active{
+	color: #F69;
+}
+.sheet-con{
+	width: 130px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.user-info{
+	width: 1020px;
+	height: 700px;
+	background: #fff;
+	margin-left:180px; 
+	overflow: hidden;
+}
+.user-title{
+	/*display: block;*/
+	width: 980px;
+	height: 35px;
+	margin: 20px auto;
+}
+.user-title strong{
+	font-size: 18px;
+	color: #dd514c;
+	font-weight: inherit;
+}
+.user-title small{
+	color: #dd514c;
+	font-weight: inherit;
+}
+.user-pic{
+	width: 810px;
+	height: 130px;
+	overflow: hidden;
+	margin: 30px auto;
+}
+.pic{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	float: left;
+
+}
+.pic img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+.n-name{
+	margin: 50px 0 0 200px;
+	font-size: 20px;
+}
+#user-change{
+	width: 720px;
+	height: 700px;
+	margin: 0 auto;
+}
+.change{
+	width: 720px;
+	height: 50px;
+	margin: 30px 0;
+}
+#user-change label{
+	font-weight: bold;
+}
+#user-change input{
+	border: 1px solid #E4EAEE;
+	width: 70%;
+	height:32px;
+	margin-left: 50px;
+	text-indent: 10px;
+}
+textarea{
+	border: 1px solid #E4EAEE;
+	width: 70%;
+	height:100px;
+	display: block;
+	float: left;
+	margin-left: 55px;
+	text-indent: 10px;
+	font-size: 14px;
+}
+.change-group{
+	height: 50px;
+	margin: 20px 0px;
+	margin: 10px 0px;
+    border-bottom: 1px solid #E4EAEE;
+    height: 34px;
+}
+#user-change .sub{
+	width: 150px;
+	height:32px;
+	margin: 20px 0 0 210px;
+	border: none;
+	background: #c62b26;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-indent: 0;
+}
+#user-change .sub:hover{
+	background: #d7342e;
+}
+select{
+	width: 150px;
+	height: 32px;
+	border: 1px solid #E4EAEE;
+}

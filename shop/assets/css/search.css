@@ -1,0 +1,65 @@
+.search-nav{
+	width: 1198px;
+	height: 38px;
+	border: 1px solid #999;
+	margin: 10px auto;
+	border-radius: 2%;
+	background: #eee;
+}
+.search-nav span{
+	display: inline-block;
+	width: 99px;
+	height: 38px;
+	border-right: 1px solid #999;
+	text-align: center;
+	line-height: 38px;
+	cursor: pointer;
+}
+.search-nav span:hover{
+	color: blue;
+}
+.search-nav span:first-child{
+	/*background: #999;*/
+}
+.search-con{
+	width: 1100px;
+	margin: 0 auto;
+}
+.search-con li{
+	width: 240px;
+	height: 320px;
+	margin: 10px;
+    border: 1px #e8e8e8 solid;
+	float: left;
+	overflow: hidden;
+}
+.search-con li:hover{
+    border: 1px #999 solid;
+}
+.search-con img{
+	width: 240px;
+	height: 240px;
+}
+.search-price{
+	width: 100px;
+	height: 20px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	color: #e4393c;
+    font-weight: 600;
+}
+.search-title{
+	width: 180px;
+	height: 20px;
+	margin-left: 20px;
+}
+.search-collect{
+	width: 100px;
+	height: 20px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	text-align: right;
+	font-weight: 600;
+}

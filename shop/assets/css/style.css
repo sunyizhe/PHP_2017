@@ -1,0 +1,66 @@
+body{
+	background: rgba(0,0,0,0.4);
+}
+.title{
+	display: block;
+	height: 60px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 10px;
+}
+#container{
+	width: 450px;
+	height: 450px;
+	position: relative;
+	margin: 60px 0 0 485px;
+
+}
+.content{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+	/*background: #000;*/
+}
+.content-one{
+	background: #fff;
+	transform: rotateZ(5deg);
+}
+.content-two{
+	background: #fff;
+	transform: rotateZ(-3deg);
+}
+.content-three{
+	background: #fff;
+	/*border: 1px solid #000;*/
+	
+}
+.form-log{
+	width: 220px;
+	margin: 225px auto;
+	transform: translateY(-120px);
+}
+#username{
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.5) inset;
+	margin-bottom: 30px;
+	margin-left: 20px;
+	background: rgba(0,0,0,0.1);
+	outline: none;
+}
+#password{
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.5) inset;
+	margin-bottom: 30px;
+	margin-left: 20px;
+	background: rgba(0,0,0,0.1);
+	outline: none;
+}
+#log-btn{
+	margin: 0 0 0 100px;
+	width: 80px;
+	height: 40px;
+	transform: translateX(-40px);
+	font-size: 16px;
+	font-weight: bold;
+}

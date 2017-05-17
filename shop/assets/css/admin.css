@@ -1,0 +1,164 @@
+.content{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 1300px;
+    margin:0 auto;
+}
+.left_con{
+    float: left;
+    margin-top: 100px;
+    border: 1px solid #CDAD00;
+    border-radius: 10%;
+    width: 300px;
+    height: 100%;
+}
+#menu{
+    padding: 20px 0;
+    width: 300px;
+    height: 100%;
+}
+#menu h3{
+    border: 1px solid #CDAD00;
+    text-align: center;
+    border-radius: 10%;
+    width: 300px;
+    height: 30px;
+    background: #000;
+    color: #fff;
+    line-height: 30px;
+}
+#menu li{
+    text-align: center;
+}
+#menu li p{
+    cursor:pointer;
+    font-size: 20px;
+    color:#000;
+}
+.right_con{
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+    border: 1px solid #CDAD00;
+    width: 800px;
+    height: 100%;
+}
+.li{
+    background: #eee;
+}
+#d1{
+    position:relative;
+    width: 780px;
+    margin: 10px;
+    margin-left: 10px;
+    height: 100%;
+}
+.d1{
+    margin: 10px;
+    border: 1px solid #CDAD00;
+}
+#d1 span{
+    font-size: 16px;
+    display: inline-block;
+    margin:5px;
+}
+#d1 .a1{
+    position:absolute;
+    right:90px;
+    color:#000000;
+}
+.delete_user{
+    position:absolute;
+    right:10px;
+    color:#000000;
+    display: inline-block;
+}
+#d1 input{
+    border-radius: 10%;
+    width: 200px;
+    height: 30px;
+}
+#d1 .sub{
+    margin: 50px 0;
+    margin-left: 80px;
+    width: 200px;
+    height: 50px;
+}
+
+.selected{
+    display: none;
+}
+
+
+
+#d4 img{
+    width: 150px;
+    height: 150px;
+}
+.x_con{
+    position: relative;
+    width: 100%;
+    height: 180px;
+}
+.img_div{
+    border:5px solid #eee;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    width: 160px;
+    height: 160px;
+}
+.cont{
+    margin-top: 10px;
+    margin-left: 30px;
+    float: left;
+}
+.c_title a{
+    font-size: 20px;
+    font-weight: 900;
+    color: #000;
+}
+.c_sum{
+    margin-top: 20px;
+}
+.c_foot{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.c_foot a{
+    color: #000;
+}
+body{
+    background: #CDB38B;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei","微软雅黑",'\65B0\5B8B\4F53','\5B8B\4F53',Verdana;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+body,html{
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.wrapperr{
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+}
+.footer .wrapperr{
+    border-top: 5px solid #fa6c3a;
+}
+.img_div:hover{
+    border: 4px solid #000;
+}
