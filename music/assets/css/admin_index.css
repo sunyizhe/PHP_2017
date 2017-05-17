@@ -1,0 +1,83 @@
+.singer li{
+	width:130px;
+	height:150px;
+	float: left;
+	margin:30px;
+}
+.singer{
+	margin-left:15px;
+}
+.singer li img{
+	width:130px;
+	height:130px;
+}
+.add{
+	width:100px;
+	height:50px;
+	text-align: center;
+	line-height:50px;
+	font-size:20px;
+}
+#overlay{
+	background: #000;
+    filter: alpha(opacity=50); /* IE的透明度 */
+    opacity: 0.5;  /* 透明度 */
+    position: absolute;
+    top: 0px;
+    bottom:0px;
+    left:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    z-index: 100; /* 此处的图层要大于页面 */
+    display:none;
+}
+#upload{
+	filter: alpha(opacity=100); /* IE的透明度 */
+    opacity: 1;  /* 透明度 */
+	z-index:10001;
+    width:400px;
+    height:300px;
+    background:white;
+    border:#336699 1px solid;
+    position:absolute;
+    left:50%;
+    top:20%;
+    font-size:20px;
+    margin-left:-200px;
+    display: none;
+}
+#upload span{
+	display:inline-block;
+	margin-left:30px;
+	margin-top:30px;
+}
+#sub{
+	width: 100px;
+	height:40px;
+	font-size:20px;
+	position:absolute;
+	bottom: 20px;
+	left:50%;
+	margin-left:-50px;
+}
+#c_pic{
+	width:250px;
+	height:50px;
+	font-size:20px;
+	position:absolute;
+	bottom: 100px;
+	left:50%;
+	margin-left:-150px;
+}
+#some_name{
+	font-size:18px;
+	width: 200px;
+	height:25px;
+}
+#msgShut{
+	cursor:pointer;
+	position:absolute;
+	right: 5px;
+	top:5px;
+}

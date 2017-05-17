@@ -1,0 +1,60 @@
+
+.top{
+	height: 50px;
+    background: #181818;
+}
+.logo{
+	width: 106px;
+	height: 50px;
+	float: left;
+}
+.top-nav{
+	float: left;
+}
+.top-nav li{
+	float: left;
+    font-size: 18px;
+    margin: 11px 0 0 50px;
+    display: inline;
+}
+.top-nav li a{
+	color: #ffffff;
+}
+.log-reg a{
+	font-size: 18px;
+	float: right;
+	color: #ffffff;
+	margin: 11px 0 0 50px;
+	display: inline;
+}
+.se{
+	float: right;
+    width: 181px;
+    height: 25px;
+    line-height: 25px;
+    background: url('../images/searchBoxBg.png');
+    margin: 13px 0 0 10px;
+    z-index: 2;
+    display: inline;
+}
+.se input{
+   	float: left;
+    width: 141px;
+    height: 25px;
+    color: #999;
+    padding-left: 10px;
+    font-size: 12px;
+    line-height: 25px;
+    background: 0;
+    border: 0;
+    outline:none; 
+}
+.se .search-botn{
+	float: right;
+	color: #fff;
+    line-height: 50px;
+	cursor: pointer;
+	width: 30px;
+    height: 25px;
+    display: block;
+}

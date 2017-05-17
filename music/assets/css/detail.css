@@ -1,0 +1,38 @@
+.detail{
+	width: 1349px;
+	height: 1000px;
+	background: #eeeeee;
+	overflow: hidden;
+}
+.detail-content{
+	width: 1000px;
+	/*height: 600px;*/
+	background: #ffffff;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.detail-content h2{
+	padding: 10px 0;
+	margin: 0 20px 0 20px;
+	border-bottom: 3px solid #2529c8;
+}
+.detail-top{
+	width: 960px;
+	height: 240px;
+	background: #eeeeee;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.detail-top img{
+	width: 240px;
+	height: 240px;
+	float: left;
+}
+.detail-top span{
+	margin-top: 10px;
+}
+.detail-tools{
+	width: 700px;
+	height: 240px;
+	float: right;
+}

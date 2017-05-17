@@ -1,0 +1,111 @@
+#banner{
+	width: 1349px;
+	height: 600px;
+	overflow: hidden;
+	position: relative;
+	background: rgba(0,0,0,0.4);
+}
+#banner img{
+	width: 1349px;
+	height: 600px; 
+	float: left;
+}
+.point{
+	width: 1349px;
+	height: 20px;
+	z-index: 33;
+	position: absolute;
+	bottom: 80px;
+}
+.pointBox{
+	width: 275px;
+	height: 20px;
+	margin: 0 auto;
+}
+.pointBox a{
+	display: block;
+	float: left;
+	width: 18px;
+	height: 18px;
+	background: rgba(0,0,0,0.5);
+	border-radius: 50%;
+	margin-left: 35px;
+
+}
+.pointBox .active{
+	background: rgba(245,121,12,0.9);
+}
+.banner-left{
+    /*display: none;*/
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 80px;
+    height: 220px;
+    cursor: pointer;
+    z-index: 1000;
+    background:rgba(0,0,0,0.5);
+}
+.banner-left span{
+	margin: 90px 0 0 28px;
+	display: block;
+	width: 24px;
+	height: 40px;
+	background: url('../images/left40.png') no-repeat;
+}
+.banner-right{
+    /*display: none;*/
+    position: absolute;
+    top: 200px;
+    right: 0;
+    width: 80px;
+    height: 220px;
+    cursor: pointer;
+    z-index: 1000;
+    background:rgba(0,0,0,0.5);
+}
+.banner-right span{
+	margin: 90px 0 0 28px;
+	display: block;
+	width: 24px;
+	height: 40px;
+	background: url('../images/right40.png') no-repeat;
+}
+.content-one{
+	width: 1349px;
+	height: 380px;
+	background: #eeeeee;
+}
+.content-one a{
+	float: left;
+	margin: 20px 20px 0 0;
+}
+.content-two{
+	width: 1349px;
+	height: 300px;
+}
+.content-two a img{
+	width: 220px;
+	height: 220px;
+	margin: 0 10px 0 5px;
+}
+.singer,.sing{
+	margin-top: 34px;
+}
+#pl{
+	width: 1000px;
+	background: #000000;
+	margin: 0 auto;
+}
+#pl-btn{
+	width: 80px;
+	height: 30px;
+	border: 0;
+	margin:50px 450px;
+}
+.pl_con{
+	width: 1000px;
+}
+#pl_input{
+	margin-left: 50px;
+}

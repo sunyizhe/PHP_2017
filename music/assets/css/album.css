@@ -1,0 +1,54 @@
+.album{
+	width: 1349px;
+	background: #eeeeee;
+	overflow: hidden;
+}
+.album-content{
+	width: 1000px;
+	height: 100%;
+	margin: 40px auto;
+}
+.album-content h2{
+	padding: 10px 0;
+	margin: 0 20px 0 20px;
+	border-bottom: 3px solid #2529c8;
+}
+.demo{
+	width: 960px;
+	height: 100%;
+	margin: 20px auto;
+	margin-bottom: 0;
+}
+.demo-img{
+	float: left;
+	width: 180px;
+	height: 180px;
+	border: 1px solid #ffffff;
+}
+.demo-img img{
+	width: 180px;
+	height: 180px;
+}
+.demo-img:hover{
+	border: 1px solid #0000ff;
+}
+.demo-content{
+	float: right;
+	width: 760px;
+	height: 182px;
+}
+.demo-title{
+	font-weight: bold; 
+	color: #231fe1;
+}
+.demo-title:hover{
+	text-decoration: underline;
+}
+.demo-time{
+	display: block;
+	margin-top: 20px;
+}
+.footer{
+	background: #EEEEEE;
+	
+}

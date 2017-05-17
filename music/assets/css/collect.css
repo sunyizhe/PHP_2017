@@ -1,0 +1,25 @@
+.collect{
+	width: 1349px;
+	height: 900px;
+	background: #eeeeee;
+	overflow: hidden;
+}
+.collect-content{
+	width: 1000px;
+	height: 800px;
+	background: #ffffff;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.collect-content h2{
+	padding: 10px 0;
+	margin: 0 20px 0 20px;
+	border-bottom: 3px solid #2529c8;
+}
+.choose{
+	margin: 0 auto;
+
+}
+.music{
+	margin: 0 auto;
+}

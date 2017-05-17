@@ -1,0 +1,11 @@
+index.php(入口文件)
+
+
+
+application---（MVC代码）  
+
+
+
+
+system----CI框架core
+

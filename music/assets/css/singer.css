@@ -1,0 +1,13 @@
+.singer li{
+	width:130px;
+	height:150px;
+	float: left;
+	margin:30px;
+}
+.singer{
+	margin-left:15px;
+}
+.singer li img{
+	width:130px;
+	height:130px;
+}

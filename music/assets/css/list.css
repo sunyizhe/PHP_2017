@@ -1,0 +1,116 @@
+.content{
+	width: 100%;
+	height: 800px;
+	padding-top: 20px;
+}
+.content-left{
+	width: 180px;
+	height: 400px;
+	border: 1px solid #000;
+	float: left;
+}
+.content-left h2{
+	/*font-size: 18px;*/
+	border-bottom:1px solid #000;
+	height: 40px; 
+	padding-left: 10px;
+}
+.content-left li{
+	padding-top: 15px;
+}
+.content-left li img{
+	padding-left: 10px;
+	width: 50px;
+	height: 50px;
+}
+.content-right{
+	width: 1000px;
+	float: right;
+}
+.list{
+	width: 120px;
+	height: 50px;
+	float: right;
+	line-height: 50px;
+}
+.list a{
+	color: #000;
+	padding-left: 10px;
+}
+.mark{
+	font-weight: bolder;	
+}
+.choose{
+	width: 960px;
+	height: 40px;
+	background: #f2f2f6;
+	color: #999;
+	font-size: 15px;
+}
+.choose ul{
+	width: 920px;
+	margin: 0 auto;
+	margin-top: 20px; 
+}
+.choose li{
+	float: left;
+	margin-left: 40px;
+}
+.choose-sing{
+	width: 320px;
+	height: 40px;
+	line-height: 40px;
+}
+.choose-singer{
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+}
+.choose-hits{
+	width: 80px;
+	padding-left: 60px;
+	height: 40px;
+	line-height: 40px;
+}
+.music{
+	width: 958px;
+	height: 574px;
+	border: 1px solid #000;
+}
+.music div{
+	float: left;
+	height: 40px;
+	border-bottom: 1px solid #000;
+	line-height: 40px;
+}
+.music-id{
+	width: 60px;
+}
+.music-name{
+	width: 360px;
+}
+.music-singer{
+	width: 215px;
+}
+.music-hits{
+	width: 240px;
+}
+.music-tools{
+	width: 83px;
+}
+.music-tools a{
+	display: block;
+	width: 15px;
+	height: 15px;
+	margin-left: 10px;
+	margin-top: 15px;
+	float: left;
+}
+.play{
+	background: 
+	url('../bootstrap/img/glyphicons-halflings.png') -266px -74px no-repeat;
+}
+.collected{
+	background: 
+	url('../bootstrap/img/glyphicons-halflings.png') -384px -122px no-repeat;
+}
